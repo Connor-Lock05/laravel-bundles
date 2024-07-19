@@ -1,0 +1,36 @@
+{
+    "name": "connor-lock05/laravel-bundles",
+    "description": "Developer package to improve make commands for common 'bundles' of files",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "Laravel",
+        "Development",
+        "Generator",
+        "Make",
+        "Bundles"
+    ],
+    "autoload-dev": {
+        "psr-4": {
+            "ConnorLock05\\LaravelBundles\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Connor Lock"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require-dev": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0",
+        "laravel/prompts": "^0.1"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConnorLock05\\LaravelBundles\\BundlesServiceProvider"
+            ]
+        }
+    }
+}
