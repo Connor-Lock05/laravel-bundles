@@ -10,7 +10,7 @@
         "Make",
         "Bundles"
     ],
-    "autoload-dev": {
+    "autoload": {
         "psr-4": {
             "ConnorLock05\\LaravelBundles\\": "src/"
         }
